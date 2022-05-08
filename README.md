@@ -1,30 +1,34 @@
-# Luhn.js
+# Luhn
 
-A checksums, [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) ([ja](https://ja.wikipedia.org/wiki/Luhn%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)) in JavaScript (ES module)
+A check digit algorithm, [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) ([ja](https://ja.wikipedia.org/wiki/Luhn%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0))
 
 - credit card (クレジットカード)
+
+## in JavaScript (ES module)
+
+- [Luhn.js](Luhn.js)
  
-## how to use
+### how to use
 
 ```js
-import { Luhn } from "https://code4fukui.github.io/Luhn.js/Luhn.js";
+import { Luhn } from "https://code4fukui.github.io/Luhn/Luhn.js";
 
 console.log(Luhn.calc(572)); // 8
 console.log(Luhn.check(5728)); // true
 console.log(Luhn.addCheckDigit(572)); // 5728
 ```
 
-## test
+### test
 
 ```
 deno test
 ```
 
-## sample app
+### sample app
 
-[Luhn.js test](https://code4fukui.github.io/Luhn.js/)
+[Luhn.js test](https://code4fukui.github.io/Luhn/)
 
 ## related
 
-- [Damm.js](https://github.com/code4fukui/Damm.js)
-- [Verhoeff.js](https://github.com/code4fukui/Verhoeff.js)
+- [Damm](https://github.com/code4fukui/Damm)
+- [Verhoeff](https://github.com/code4fukui/Verhoeff)
