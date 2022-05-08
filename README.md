@@ -24,4 +24,5 @@ deno test
 
 ## related
 
-[Damm.js](https://github.com/code4fukui/Damm.js)
+- [Damm.js](https://github.com/code4fukui/Damm.js)
+- [Verhoeff.js](https://github.com/code4fukui/Verhoeff.js)
