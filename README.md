@@ -18,6 +18,10 @@ console.log(Luhn.addCheckDigit(572)); // 5728
 deno test
 ```
 
+## sample app
+
+[Luhn.js test](https://code4fukui.github.io/Luhn.js/)
+
 ## related
 
 [Damm.js](https://github.com/code4fukui/Damm.js)
