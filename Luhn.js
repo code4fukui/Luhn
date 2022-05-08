@@ -15,7 +15,7 @@ const calc = (num) => {
     sum += d;
     alt = !alt;
   }
-  return 10 - sum % 10;
+  return (10 - sum % 10) % 10;
 };
 
 const check = (num) => {

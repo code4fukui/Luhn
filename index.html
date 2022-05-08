@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+
+<h1>Luhn.js test</h1>
+<input id=num placeholder="num with Luhn checkdigit">
+<div id=mes></div>
+
+
+<script type="module">
+//import { Luhn } from "https://code4fukui.github.io/Luhn.js/Luhn.js";
+import { Luhn } from "./Luhn.js";
+
+num.onkeyup = num.onchange = () => {
+  const s = num.value.replace(/-/g, "");
+  const flg = Luhn.check(s);
+  mes.textContent = flg ? "valid!" : "invalid...";
+  num.style.backgroundColor = flg ? "lightgreen" : "pink";
+  console.log(Luhn.calc(s));
+};
+</script>
+
+<textarea>
+import { Luhn } from "https://code4fukui.github.io/Luhn.js/Luhn.js";
+
+num.onkeyup = num.onchange = () => {
+  const s = num.value.replace(/-/g, "");
+  const flg = Luhn.check(s);
+  mes.textContent = flg ? "valid!" : "invalid...";
+  num.style.backgroundColor = flg ? "lightgreen" : "pink";
+  console.log(Luhn.calc(s));
+};
+</textarea>
+
+<style>
+textarea {
+  width: 90vw;
+  height: 15em;
+  margin-top: 2em;
+}
+</style>
+
+<br>
+Lib: <a href=https://github.com/code4fukui/Luhn.js/>Luhn.js src on GitHub</a><br>
