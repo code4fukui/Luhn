@@ -1,6 +1,8 @@
 # Luhn
 
-A check digit algorithm, [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) ([ja](https://ja.wikipedia.org/wiki/Luhn%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0))
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+A check digit algorithm, [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) ([ja](https://ja.wikipedia.org/wiki/Luhn%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0)).
 
 ## Demo
 [Luhn.js test](https://code4fukui.github.io/Luhn/)
