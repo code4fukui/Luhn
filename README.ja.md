@@ -2,9 +2,6 @@
 
 Luhnアルゴリズムは、クレジットカード番号などの検査桁を生成するアルゴリズムです。
 
-## デモ
-[Luhn.js test](https://code4fukui.github.io/Luhn/)
-
 ## 機能
 - Luhnアルゴリズムに基づいた検査桁の計算
 - Luhnチェックディジットの付加
